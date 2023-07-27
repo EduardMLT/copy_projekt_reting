@@ -137,9 +137,13 @@ function recipesMarkup(arr) {
          <img class="recipes_img" src="${thumb}" alt="${title}" width="240" height="264">
           <div class="text_from_above">
                <div class="recipes_button_heart_from_above">
-                    <button class="recipes_button_heart" type="button">
-                      <p class="recipes_simple_herz"></p>
-                  </button>
+                  
+    <div class="rating_section_herz">        
+        <div class="rating__group_herz">
+            <input class="rating__herz" type="radio" name="general" value="1">
+        </div>
+    </div>
+
                </div>    
                 <div class="text_from_above_title">
                     <h2 class="recipes_title">${title}</h2>
@@ -147,9 +151,18 @@ function recipesMarkup(arr) {
                     <p class="recipes_rating">rating</p>
                 </div>
                 <div class="recipes_btn">
-                   <div class="recipes_simple_reting">
+
+     <div class="rating_section_star">
+        <div class="rating__group_star">
+            <input class="rating__star" type="radio" name="mood" value="1" >
+            <input class="rating__star" type="radio" name="mood" value="2" checked>
+            <input class="rating__star" type="radio" name="mood" value="3"  >
+            <input class="rating__star" type="radio" name="mood" value="4" >
+            <input class="rating__star" type="radio" name="mood" value="5" >
+        </div>
+    </div>
+
                    
-                   <div>
                    <button class="recipes_btn_see_recipe" type="button">See recipe</button> 
                 <div>             
               

@@ -1,324 +1,3 @@
-/* .popular_on_recipes {
-    display: flex;
-    width: 900px;
-    height: 1070px;
-    background-color: rgb(157, 216, 216);
-    margin-left: 32px;
-}
-
-
-
-.popular_all_recipes {
-    grid-gap: 30px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 0;
-    padding: 24px;
-    list-style: none;
-    display: flex;
-}
-
-.recipes-js {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-}
-
-.recipes_title {
-   color: #F8F8F8;
-   text-align: center;
-   font-family: Inter;
-   font-size: 14px;
-   font-style: normal;
-   font-weight: 600;
-   line-height: 1.29; 
-   text-transform: uppercase;
-} 
-
-.recipes_description {
-   overflow: hidden;
-   color: #F8F8F8;
-   text-overflow: ellipsis;
-   
-   font-family: Inter;
-   font-size: 12px;
-   
-   font-weight: 400;
-   line-height: 1.33; 
-}
-
-.recipes_rating {
-   overflow: hidden;
-   color: #F8F8F8;
-   text-overflow: ellipsis;
-  
-   font-family: Inter;
-   font-size: 12px;
-   
-   font-weight: 400;
-   line-height: 1.33; 
-
-} */
-
-
-/*  останній запис в проект 26,07,23 - 0.30*/
-/* .popular_on_recipes {
-    display: flex;
-    width: 500px;
-    
-    margin-left: 32px;
-}
-
-
-.popular_all_recipes {
-    list-style: none;
-    margin: 0;
-    
-}
-
-.recipes-js {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 18px;
-  justify-content: space-evenly;
-}
-
-div#text_from_above {
-position: relative;
-}
-
-.text_from_above {
-position: absolute;
-top: 48%;
-left: 10px;
-text-transform: uppercase;
-color: white;
-
-background: transparent;
-padding: 10px;
-text-align: end;
-}
-
-.text_from_above_title {
-   text-align: left;
-}
-
-.recipes_img {
-  border-radius: 15px;
-}
-
-.recipes_title {
-  align-content: center;
-  width: 180px;
-  height: 18px;
-   color: #F8F8F8;
-   text-align: center;
-   font-family: Inter;
-   font-size: 14px;
-   
-   font-weight: 600;
-   line-height: 1.29; 
-   text-transform: uppercase;
-   text-overflow: ellipsis;
-   white-space: nowrap;
-   overflow: hidden;
-} 
-
-.recipes_description {
-  align-content: center;
-   width: 208px;
-   height: 32px;
-   overflow: hidden;
-   color: #F8F8F8;
-   text-overflow: ellipsis;
-   
-   font-family: Inter;
-   font-size: 12px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 1.33; 
-}
-
-.recipes_rating {
-   overflow: hidden;
-   color: #F8F8F8;
-   text-overflow: ellipsis;
-   
-   font-family: Inter;
-   font-size: 12px;
-   
-   font-weight: 400;
-   line-height: 1.33; 
-
-} */
-
-/*     ha 27.07.23 - 0.45   */
-/* .popular_on_recipes {
-    display: flex;
-    width: 960px;
-    
-    margin-left: 32px;
-}
-
-
-.popular_all_recipes {
-    list-style: none;
-    margin: 0;
-    
-}
-
-.recipes-js {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 18px;
-  justify-content: space-evenly;
-}
-
-div#text_from_above {
-position: relative;
-}
-
-.text_from_above {
-height: 220px;
-position: absolute;
-top: 5%;
-left: 10px;
-
-color: white;
-background: transparent;
-padding: 10px;
-text-align: end;
-}
-
-.recipes_button_heart_from_above {
-  padding-bottom: 80px;
-}
-
-.recipes_button_heart {
-  border: none;
-  background-color: rgb(220, 187, 187);
-  gap: 14px;
-  width: 28px;
-  height: 24px;
-  cursor: pointer;
-  color: #000;
-}
-
-.recipes_icon_heart {
-  
-  stroke: #000;
-  
-}
-
-.text_from_above_title {
-   text-align: left;
-}
-
-.recipes_img {
-  border-radius: 15px;
-}
-
-.recipes_title {  
-  width: 180px;
-  height: 18px;
-   color: #F8F8F8;
-   text-align: left;
-   font-family: Inter;
-   font-size: 14px;
-   
-   font-weight: 600;
-   line-height: 1.29; 
-   text-transform: uppercase;
-   text-overflow: ellipsis;
-   white-space: nowrap;
-   overflow: hidden;
-} 
-
-.recipes_description {
-  text-align: left;
-   width: 208px;
-   height: 32px;
-   overflow: hidden;
-   color: #F8F8F8;
-   text-overflow: ellipsis;
-   
-   font-family: Inter;
-   font-size: 12px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 1.33; 
-}
-
-.recipes_rating {
-   overflow: hidden;
-   color: #F8F8F8;
-   text-overflow: ellipsis;
-   
-   font-family: Inter;
-   font-size: 12px;
-   
-   font-weight: 400;
-   line-height: 1.33; 
-
-}
-
-.recipes_btn {
-  display: flex;
-  align-items: center;
-  width: 218px;
-  height: 31px;
-  justify-content: flex-end;
-}
-
-.recipes_btn_reting {
-  text-align: left;
-   width: 116px;
-  height: 18px;
-  align-content: center;
-  font-size: 24px;
-}
-
-.recipes_btn_see_recipe {
-    width: 93px;
-    height: 31px;
-    background-color: var(--primary-color-btn);
-    margin-bottom: 16px;
-    margin-right: 8px;
-    cursor: pointer;
-    color: var(--primary-text-color-05);
-    
-    border-radius: 15px;
-    border: 1px solid var(--primary-text-color-02);
-    font-family: Inter;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
-
-  .recipes_btn_see_recipe:hover {
-     background-color: #73891a;
-     color: #F8F8F8;
-  }
-
-  .recipes_simple_reting {
-     
-     font-size: 40px;
-     display: inline-block;
-  }
-
-  .recipes_simple_reting::before {
-    position: absolute;
-  content: "*****";
-  display: block;
-  top: 85%;
-  left: 0;
-  } */
-
-
-
-/*  останній запис в проект 27,07,23 - 13.30*/
-
 .popular_on_recipes {
     display: flex;
     width: 960px;
@@ -368,10 +47,10 @@ text-align: end;
   padding-bottom: 90px;
   /* position: absolute; */
 }
+/*      ------------------------    */
 
-.recipes_button_heart {
+/* .recipes_button_heart {
   border: none;
-  /* background-color: rgb(210, 216, 48); */
   background-color: transparent;
   gap: 14px;
   width: 24px;
@@ -380,19 +59,88 @@ text-align: end;
   color: #000;
   position: absolute;
   right: 16px;
+ }
+
+ .recipes_simple_herz {
+     width: 20px;
+     font-size: 18px;
+     display: inline-block;
   }
 
-.recipes_button_heart:hover {
-   fill : #000;
-   /* background-color: rgb(210, 216, 48); */
-}
+  .recipes_simple_herz:hover {
+     background-color: #000;
+  }
+
+  .recipes_simple_herz::before {
+  position: absolute;
+  content: "*";
+  color: transparent;
+  display: block;
+  background-image: url(../images/herz.svg);  
+  width: 24px;
+  height: 24px;
+  top: -36px;     
+  } */
+
+  /* з баттон
+      <button class="recipes_button_heart" type="button">
+                      <p class="recipes_simple_herz"></p>
+                  </button>
+  */
+
+        .rating_section_herz {
+            margin: 0 0 1em 0;
+            padding: 0;
+            border: none;
+        }
+                     
+        .rating__group_herz {
+            position: relative;
+            width: 2em;
+            height: 2em;
+            background-image: url(../images/herz_off.svg);
+            background-size: 2em auto;
+            background-repeat: repeat-x;
+            margin-left: 180px;
+            margin-top: -35px;
+            left: 0;    
+            top: 0;
+        }
+
+        .rating__herz:nth-of-type(1) {
+            z-index: 1;
+            width: 2em;
+        } 
+
+        .rating__herz {
+            /* position: absolute; */
+            top: 0;
+            left: 0;
+            margin: 0;
+            height: 2em;
+            font-size: inherit;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-size: 2em auto;
+            background-repeat: repeat-x;
+        }
+
+        .rating__herz:focus {
+            outline: none;
+        }
+
+        .rating__herz:hover,
+        .rating__herz:checked {
+            background-image: url(../images/herz_on.svg);
+        }
+
+        .rating__herz:hover ~ .rating__herz {
+            background-image: url(../images/herz_off.svg);
+        }        
 
 
-.recipes_icon_heart {
-  /* margin-right: 14px; */
-  stroke: #000;
-  /* fill: currentColor; */
-}
+/*    ------------------------     */
 
 .text_from_above_title {
    text-align: left;
@@ -455,13 +203,13 @@ text-align: end;
   position: relative;
 }
 
-.recipes_btn_reting {
+/* .recipes_btn_reting {
   text-align: left;
    width: 116px;
   height: 18px;
   align-content: center;
   font-size: 24px;
-}
+} */
 
 .recipes_btn_see_recipe {
     width: 93px;
@@ -486,11 +234,11 @@ text-align: end;
      color: #F8F8F8;
   }
 
-  .recipes_simple_reting {
-     /* background-image: url(../images/off.svg); */
+   /*  ---------- *** ----------- */
+
+  /* .recipes_simple_reting {     
      font-size: 18px;
-     display: inline-block;
-     /* background-image: url(../images/off.svg); */
+     display: inline-block;     
   }
 
   .recipes_simple_reting::before {
@@ -503,29 +251,84 @@ text-align: end;
   background-image: url(../images/off.svg);  
   background-color: transparent;
   width: 96px;
-  }
+  } */
 
-  .recipes_simple_herz {
-     width: 20px;
-     font-size: 18px;
-     display: inline-block;
-  }
+  /*  був з ,,,,
+  <div class="recipes_simple_reting"><div>
+   */
 
-  .recipes_simple_herz:hover {
-     background-color: #000;
-  }
 
-  .recipes_simple_herz::before {
-  position: absolute;
-  content: "*";
-  color: transparent;
-  display: block;
-  /* top: 3%;
-  left: -5px; */
-  background-image: url(../images/herz.svg);  
-  /* background-color: transparent; */
-  width: 24px;
-  height: 24px;
-  top: -36px;   
-  /* right: 16px; */
-  }
+  /*  -------   *****   ------------ */
+
+  .rating_section_star {
+            margin: 0 0 1em 0;
+            padding: 0;
+            border: none;
+        }
+                     
+        .rating__group_star {
+            position: relative;
+            width: 5em;
+            height: 2em;
+            background-image: url(../images/off.svg);
+            background-size: 1em auto;
+            background-repeat: repeat-x;
+            /* margin-left: 50px;
+            margin-top: 50px; */
+            top: 7px;
+            left: -50px;
+        }
+
+        .rating__star:nth-of-type(1) {
+            z-index: 5;
+            width: 1em;
+        }
+
+        .rating__star:nth-of-type(2) {
+            z-index: 4;
+            width: 2em;
+        }
+
+        .rating__star:nth-of-type(3) {
+            z-index: 3;
+            width: 3em;
+        }
+
+        .rating__star:nth-of-type(4) {
+            z-index: 2;
+            width: 4em;
+        }
+
+        .rating__star:nth-of-type(5) {
+            z-index: 1;
+            width: 5em;
+        }
+
+        .rating__star {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 0;
+            height: 2em;
+            font-size: inherit;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-size: 1em auto;
+            background-repeat: repeat-x;
+        }
+
+        .rating__star:focus {
+            outline: none;
+        }
+
+        .rating__star:hover,
+        .rating__star:checked {
+            background-image: url(../images/on.svg);
+        }
+
+        .rating__star:hover ~ .rating__star {
+            background-image: url(../images/off.svg);
+        } 
+
+ 
