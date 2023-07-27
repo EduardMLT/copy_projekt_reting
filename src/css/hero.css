@@ -1,0 +1,70 @@
+.hero-section {
+    width: 1200px;
+    height: 700px;
+    background-color: rgb(231, 236, 235);
+}
+
+.hero-section-title {
+    width: 446px;
+    height: 700px;
+    background-color: aquamarine;
+    display: inline-block;
+}
+
+.hero-section-slider {
+    width: 740px;
+    height: 540px;
+    background-color: gray;
+    display: inline-block;
+}
+
+.card-set {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--card-set-gap));
+    margin-top: calc(-1 * var(--card-set-gap));
+  }
+
+.image-slider{
+    padding: 30px 0 70px 0;
+} 
+
+.swiper-container{
+
+}
+
+.image-slider-wrapper{
+
+}
+
+.image-slider-slide{
+
+} 
+
+.swiper-slide{
+
+}
+
+.image-slider-image{
+    text-align: center;
+}
+
+.image-slider-image  {
+    max-width: 100%;
+}
+
+.position {
+/* Sets the border */
+border: 2px dashed #2196F3;
+  
+/* Adds an inner padding */
+padding: 15px;
+
+/* Sets outer margins */
+margin: auto;
+height: 450px;
+}
