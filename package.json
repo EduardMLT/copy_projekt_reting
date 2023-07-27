@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://EduardMLT.github.io/copy_projekt",
+  "homepage": "https://EduardMLT.github.io/copy_projekt_reting",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /copy_projekt/"
+    "build": "parcel build src/*.html --public-url /copy_projekt_reting/"
   },
   "repository": {
     "type": "git",
